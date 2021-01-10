@@ -10,7 +10,7 @@ just-list:
     just --list
 
 polynote:
-    polynote
+    polynote --config "$(realpath ./polynote/config.yml)"
 
 polynote-install:
     cd /usr/local/opt/polynote/libexec && \
