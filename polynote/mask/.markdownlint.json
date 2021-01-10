@@ -1,0 +1,12 @@
+{
+    "MD009": false,
+    "MD012": {
+        "maximum": 3
+    },
+    "MD028": false,
+    "MD033": {
+        "allowed_elements": [
+            "div"
+        ]
+    }
+}
