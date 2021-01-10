@@ -9,6 +9,9 @@ just-choose:
 just-list:
     just --list
 
+code:
+    code "$(realpath ./scala.code-workspace)"
+
 polynote:
     polynote --config "$(realpath ./polynote/config.yml)"
 
